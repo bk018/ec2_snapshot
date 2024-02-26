@@ -1,6 +1,6 @@
 
 resource "aws_instance" "example" {
-  count         = 6
+  count         = 8
   ami           = "ami-0440d3b780d96b29d"
   instance_type = "t2.micro"
 }
